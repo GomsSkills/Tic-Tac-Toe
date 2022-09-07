@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --orange:#F2C143;
+    --winning-blocks:#2d414b;
+}
+
+body{
+
+    font-family: 'Finger Paint', cursive;
+    background-color: black;
+    color: white
+}
+
+#container{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container h2{
+    margin-top: 20px;
+}
+
+
+#gameboard{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#game{
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-top: 10px; */
+    justify-content: center;
+    align-items: center;
+}
+
+#game .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#333333;
+    font-size: 70px;
+    /* padding: 50px; */
+    background-color: white;
+    border-radius: 50%;
+    margin: 10px;
+    width: 110px;
+    height: 110px;
+}
+
+#game .box:hover{
+    cursor: pointer;
+    background-color: grey;
+}
+
+#btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn button{
+    padding: 10px 50px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    transition: 200ms transform;
+    font-weight: 600;
+    margin-top: 50px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#btn button:hover {
+    cursor: pointer;
+    background-color: pink;
+}
+
+p {
+    font-size: 12px;
+    margin-top: 20px;
+    float: right;
+}
