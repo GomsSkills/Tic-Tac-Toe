@@ -9,6 +9,10 @@
     --winning-blocks:#2d414b;
 }
 
+h1{
+    font-size: 50px;
+}
+
 body{
 
     font-family: 'Finger Paint', cursive;
