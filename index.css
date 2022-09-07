@@ -63,7 +63,7 @@ body{
     height: 110px;
 }
 
-#game .box:hover{
+#game .box:hover, #game .box:active{
     cursor: pointer;
     background-color: grey;
 }
